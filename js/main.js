@@ -575,22 +575,33 @@ conterrà l'anno (mettete un valore voi, è necessario inserire valore reale) in
 
 
 
+// let browser =  
+//         {
+//          "tab": ["Facebook", "GitHub", "Gmail"],
+//          "activeTab": 0
+//         };
 
 
+// // for(let sito in browser){
 
+// //     console.log(sito);
+    
+// //     // sito.forEach((element) => {
+// //     //     if(element == 'Facebook'){
+// //     //         element.remove();
+// //     //     }
+// //     // });
+// // };
 
+// browser.tab.forEach((element, index, array) => {
 
+//     if(element == 'Facebook'){
+//         browser.tab.splice(index, 1);
+//     }
 
+// });
 
-
-
-
-
-
-
-
-
-
+// console.log(browser);
 
 
 
