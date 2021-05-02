@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    margin: 20px;
+}
+
+.rubrica{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: dodgerblue;
+}
+
+.contatto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    background-color: #82c0ee;
+    margin: 10px;
+    cursor: pointer;
+    color: red;
+}
+
+.dati{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.numero:hover{
+    color:blueviolet;
+}
+
+.active{
+    color:black;
+}
